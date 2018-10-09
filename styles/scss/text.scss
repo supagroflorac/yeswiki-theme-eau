@@ -1,0 +1,26 @@
+#main {
+  div.page {
+    padding: $eau-padding;
+
+    a {
+      color: $eau-main-color;
+      font-weight: 600;
+    }
+
+    a:hover {
+
+    }
+
+    a:visited {
+      color: $eau-secondary-color;
+    }
+
+    h1 {
+      color: $eau-main-color;
+    }
+
+    h2 {
+      color: $eau-secondary-color;
+    }
+  }
+}

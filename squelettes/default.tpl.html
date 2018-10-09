@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="{{configuration param="charset"}}">
+  <meta name="keywords" content="{{configuration param="meta_keywords"}}">
+  <meta name="description" content="{{configuration param="meta_description"}}">
+  <title>{{configuration param="wakka_name"}} : {{currentpage}}</title>
+  {{linkstyle}}
+  {{linkrss}}
+</head>
+
+<body {{parambody}}>
+  <section id="main" {{doubleclic}}>
+      {WIKINI_PAGE}
+      {{barreredaction}}
+  </section>
+
+  <header id="header">
+    <a href="./">
+      <img src="themes/eau/images/logo-reseau-eau.png" alt="Logo du réseau eau" />
+    </a>
+  </header>
+
+  <nav id="navtop">
+    {{include page="PageMenuHaut" doubleclic="0"}}
+  </nav>
+
+  <footer id="footer">
+    {{include page="PageFooter" class="footerpage" doubleclic="1"}}
+  </footer>
+
+  {{linkjavascript}}
+  </body>
+</html>
