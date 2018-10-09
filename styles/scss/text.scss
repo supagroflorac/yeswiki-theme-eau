@@ -1,6 +1,8 @@
 #main {
   div.page {
     padding: $eau-padding;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     a {
       color: $eau-main-color;
