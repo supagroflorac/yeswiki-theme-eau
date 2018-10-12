@@ -1,7 +1,13 @@
 #header {
-  text-align: center;
-  padding: $eau-padding;
-  img {
-    max-width: 100%;
+  div.include {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      padding: $eau-padding;
+      max-width: 100%;
+    }
   }
 }
