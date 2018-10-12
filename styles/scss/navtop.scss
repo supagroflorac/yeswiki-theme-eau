@@ -13,9 +13,21 @@
       color: $eau-background-color;
       line-height: normal;
       margin: 0;
+      border-radius: 0;
       span {
         color: white;
       }
+    }
+
+    a.navbar-btn:hover {
+      background: #eee;
+      span {
+        color: $eau-main-color;
+      }
+    }
+
+    a:hover {
+      color: $eau-main-color;
     }
   }
 
