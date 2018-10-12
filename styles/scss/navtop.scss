@@ -6,6 +6,17 @@
   }
   div.include {
     text-align: center;
+
+    a.navbar-btn {
+      border: 0;
+      background: $eau-main-color;
+      color: $eau-background-color;
+      line-height: normal;
+      margin: 0;
+      span {
+        color: white;
+      }
+    }
   }
 
 }
